@@ -305,17 +305,17 @@ footer {
   }
 
   .text-overlay h3 {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .text-overlay p {
-    font-size: 12px;
+    font-size: 15px;
   }
   .price{
-    font-size: 12px;
+    font-size: 15px;
   }
   .bustup{
-    font-size: 12px;
+    font-size: 15px;
   }
   .commercial{
     font-size: 12px;
@@ -412,20 +412,20 @@ footer {
   }
 
   .text-overlay h3 {
-    font-size: 13px;
+    font-size: 15px;
   }
 
   .text-overlay p {
-    font-size: 9px;
+    font-size: 10px;
   }
   .price{
-    font-size: 9px;
+    font-size: 10px;
   }
   .bustup{
-    font-size: 9px;
+    font-size: 10px;
   }
   .commercial{
-    font-size: 9px;
+    font-size: 10px;
   }
   
   /* MOBILE ARRENGEMENT*/
