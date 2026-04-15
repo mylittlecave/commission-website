@@ -405,7 +405,7 @@ footer {
    .text-overlay {
     
     position: absolute;
-    top: 49%;
+    top: 48.5%;
     left: 70%;
     transform: translate(-50%, -50%) scale(1);
     width: 40%;
