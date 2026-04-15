@@ -14,6 +14,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 
@@ -22,13 +23,16 @@ html {
     color: var(--text-color);
 }
 
-
-.top img {
-  width: 100%;   /* fills horizontal space */
-  min-width: 930px;
-  height: height: 30vh    
+.top {
+  width: 100%;
+  
+}
+.top  img{
+  width: 100%;
+  height: clamp(180px, 25vh, 350px);
   display: block;
-  object-fit: cover;
+  min-height: 200px;   /* ← adjust this */
+  object-fit: cover;   /* prevents stretching */
 }
 
 body {
@@ -48,6 +52,8 @@ body {
 .text-overlay h3 {
     font-family: 'Baloo Bhaina 2';
     font-size: clamp(14px, 1.9vw, 24px);
+    line-height: 20px;
+    margin-bottom: 8%;
     
 }
 
@@ -88,12 +94,13 @@ body {
 
 nav ul {
 font-family: 'Baloo Bhaina 2';
- font-size: clamp(1.5rem,1.7vw,5rem);
+ font-size: clamp(1rem, 1.9vw, 1.8rem);
   display: flex;
-  gap: 2.5em;
+  gap: 1.5em;
   list-style: none;
-   margin-top: 5em;
+   margin-top: 6em;
   padding: 0;
+  overflow: hidden;
 }
 
 nav a {
@@ -114,8 +121,9 @@ nav a:hover {
     
    display: flex;
     align-items: flex-start;
-    gap: 100px;
+    gap: 7vw;
     padding: 0.6vh;
+    
 }
 
 
@@ -132,6 +140,7 @@ nav a:hover {
   
     padding-left: 6vh;
     width: 210px;
+    
     
 }
 
@@ -184,6 +193,7 @@ nav a:hover {
 
 .content{
     flex: 1;
+    min-width: 0;
 }
 
 .image-wrapper {
@@ -192,13 +202,15 @@ nav a:hover {
     text-decoration: none; /* remove underline */
     color: inherit;   /* use normal text color */
     margin-bottom: 30px;
-    overflow: hidden;
+    overflow: hidden; 
 }
 .content-img {
    width: 100%;
-   min-width: 600px;
+   min-width: 450px;
+   max-width: 890px;
   height: auto;
   display: block;
+  
   
 }
 
@@ -241,7 +253,7 @@ nav a:hover {
 }
 
 .do-dont img {
-  width: 50vh;
+  width: 40vh;
 }
 
 
@@ -250,10 +262,120 @@ footer {
 }
 
 .bottom-bar {
-  height: 30px;          /* thickness of the bar */
+  height: 4vw;        
   background-color: rgb(68, 68, 68); 
   width: 100%;
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
  
+}
+
+
+
+/*********************************/
+/*tablet adjustment*/
+
+
+@media (max-width: 768px) 
+{
+.top {
+  width: 100%;
+  
+}
+
+  
+  /*FONT SIZE TABLET*/
+
+ .image-wrapper {
+    position: relative;   
+
+  }
+   .text-overlay {
+    
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 40%;
+  }
+
+  .text-overlay h3 {
+    font-size: 15px;
+  }
+
+  .text-overlay p {
+    font-size: 12px;
+  }
+  .price{
+    font-size: 12px;
+  }
+  .bustup{
+    font-size: 12px;
+  }
+  .commercial{
+    font-size: 12px;
+  }
+  
+  /* TABLET ARRENGEMENT*/
+  
+
+    .text-container {
+        
+        flex-direction: column;
+        align-items: center;      /* center everything */
+       
+        
+        
+        
+        
+    }
+      nav ul {
+    padding: 0;
+    margin: 0;
+    gap: 0;           /* if you're using flex */
+  }
+    nav ul li {
+        display: none;}
+
+        
+   .profile-section {
+    flex-direction: column;   /* stack vertically */
+    align-items: center;      /* center everything */
+    padding-left: 0;          /* remove the push */
+    
+  }
+
+  .profile-section img {
+    display: block;
+    margin: 0 auto;           /* extra safe centering */
+
+    }
+  
+  .sidebar {
+    text-align: center;
+  padding-left: 0;
+  text-align: center;
+  
+  }
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }       
+  .content-img {
+  min-width: 0;   
+    width: 100%; 
+  }
+ 
+  .do-dont {
+     flex-direction: column;
+        align-items: center;  
+        gap: 30px;
+        margin-top: 4em;
+  }
+    
 }
 
 
@@ -262,11 +384,11 @@ footer {
 /*mobile adjustment*/
 
 
-@media (max-width: 320px) 
+@media (max-width: 440px) 
 {
 .top {
   width: 100%;
-  overflow: hidden;
+  
 }
 
   
