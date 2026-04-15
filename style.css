@@ -51,7 +51,7 @@ body {
 
 .text-overlay h3 {
     font-family: 'Baloo Bhaina 2';
-    font-size: clamp(14px, 1.9vw, 24px);
+    font-size: clamp(14px, 2vw, 24px);
     line-height: 20px;
     margin-bottom: 8%;
     
@@ -59,7 +59,7 @@ body {
 
 .price {
     font-family: 'Bai Jamjuree', Regular;
-    font-size: clamp(12px, 1.3vw, 18px);
+    font-size: clamp(12px, 1.5vw, 18px);
     
 }
 
@@ -298,7 +298,7 @@ footer {
    .text-overlay {
     
     position: absolute;
-    top: 35%;
+    top: 38%;
     left: 70%;
     transform: translate(-50%, -50%) scale(1);
     width: 40%;
@@ -416,7 +416,7 @@ footer {
   }
 
   .text-overlay p {
-    font-size: 12px;
+    font-size: 10px;
   }
   .price{
     font-size: 12px;
