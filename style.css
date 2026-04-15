@@ -305,20 +305,20 @@ footer {
   }
 
   .text-overlay h3 {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .text-overlay p {
-    font-size: 15px;
+    font-size: 19px;
   }
   .price{
-    font-size: 15px;
+    font-size: 19px;
   }
   .bustup{
-    font-size: 15px;
+    font-size: 19px;
   }
   .commercial{
-    font-size: 12px;
+    font-size: 19px;
   }
   
   /* TABLET ARRENGEMENT*/
@@ -412,20 +412,20 @@ footer {
   }
 
   .text-overlay h3 {
-    font-size: 15px;
+    font-size: 19px;
   }
 
   .text-overlay p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .price{
-    font-size: 10px;
+    font-size: 15px;
   }
   .bustup{
-    font-size: 10px;
+    font-size: 15px;
   }
   .commercial{
-    font-size: 10px;
+    font-size: 15px;
   }
   
   /* MOBILE ARRENGEMENT*/
