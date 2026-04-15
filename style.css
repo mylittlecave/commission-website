@@ -412,20 +412,20 @@ footer {
   }
 
   .text-overlay h3 {
-    font-size: 19px;
+    font-size: 15px;
   }
 
   .text-overlay p {
-    font-size: 15px;
+    font-size: 12px;
   }
   .price{
-    font-size: 15px;
+    font-size: 12px;
   }
   .bustup{
     font-size: 15px;
   }
   .commercial{
-    font-size: 15px;
+    font-size: 12px;
   }
   
   /* MOBILE ARRENGEMENT*/
